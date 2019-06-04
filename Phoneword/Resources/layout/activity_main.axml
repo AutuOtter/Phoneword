@@ -26,9 +26,15 @@
         android:id="@+id/TranslateButton"
         android:layout_below="@+id/PhoneNumberText" />
     <TextView
-        android:text="TextView"
+        android:text=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/TranslateButton"
         android:id="@+id/TranslatedPhoneword" />
+    <Button
+        android:text="@string/translationHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TranslatedPhoneword"
+        android:id="@+id/TranslationHistoryButton" />
 </RelativeLayout>
